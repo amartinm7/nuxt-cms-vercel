@@ -204,6 +204,7 @@ export default {
     extend(config, ctx) {}
   },
   generate: {
+    crawler: false,
     // routes: ['/es', '/en', '/es/movie', '/en/movie']
     routes: dynamicRoutes(),
     fallback: true,
