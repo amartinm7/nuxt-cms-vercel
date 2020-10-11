@@ -44,8 +44,6 @@ export default {
     ESTRENOSCINEHOY_GOOGLE_ADS_ID:
       process.env.ESTRENOSCINEHOY_GOOGLE_ADS_ID || ''
   },
-  mode: 'universal',
-  target: 'static',
   /*
    ** Headers of the page
    */
